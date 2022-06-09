@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Squada+One&display=swap');
+body{
+ background-color: lightsteelblue; 
+}
+
+header{
+  background-image: linear-gradient(to bottom, #298ABA, #31A6E0);
+  min-height:15px;
+  padding-top:30px;
+  padding:14px;
+  box-shadow:2px 2px 2px 1px #0000008C;
+}
+
+header > h1{
+  color:white;
+  text-align:center;
+  font-size:3em;
+  margin-bottom:20px;
+  text-shadow: 1px 1px 0px black;
+  font-family: 'Bebas Neue', cursive;
+}
+
+header > p{
+  color:#FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:8px;
+  padding:30px;
+  text-align:center;
+  text-shadow: 2px 1px 1px black;
+}
+
+nav{
+  background-color:#2271B3;
+  padding:10px;
+  border-radius:4px;
+  box-shadow:2px 3px 3px 0px #0000008C;
+}
+
+nav > a{
+  color: white;
+  font-weight:bold;
+  font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left:2px;
+  background-color:#3F8FEB;
+  border-radius:3px;
+  text-shadow:1px 1px 0px #00000075;
+}
+
+nav > a:houver{
+  color:#7BB5F8;
+  
+  transition-delay:0.9;
+}
+
+main{
+  box-shadow:2px 2px 2px #02020296;
+  background-color: white;
+  border-radius:4px;
+}
+
+h2{
+  color:#103F55;
+   font-family: 'Squada One', cursive;
+   font-size:1em;
+   text-align:center;
+  border-width:5px;
+  border-style:solid;
+  border-color:#6EE0C4;
+  padding-top:14px;
+  padding-right:4px;
+  padding-bottom:10px;
+  padding-left:4px;
+  margin-top:5
+}
+
+h3{
+  color:#A6F048;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bolder;
+  text-align:justify;
+  font-size:10px;
+  background-image: linear-gradient(to right, #49A9F5, transparent);
+}
+
+main p{
+  color:#18171C;
+  font-family:'Coda', cursive;
+  font-size:10px;
+  text-align:justify;
+  text-indent:15px;
+  margin-right:20px;
+  text-transform: lowercase
+  
+}
+
+main p > u{
+  color: lightcyan;
+  background-color:#17AFF0;
+  border-radius:1px;
+  font-weight:bold;
+}
+
+footer{
+  
+}
+
+
